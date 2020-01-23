@@ -4,7 +4,7 @@
 
 - Fast
 - Secure
-- Complier doesn't allow you to write code that isn't memory safe
+- compiler doesn't allow you to write code that isn't memory safe
 
 ### Package management
 
