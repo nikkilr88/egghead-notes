@@ -2,7 +2,9 @@
 
 [Installation guide](https://www.rust-lang.org/tools/install)
 
-Don't want to install Rust on your machine just yet? You can use [repl.it](https://repl.it/)! [Here is an example](https://repl.it/@nikkilr88/Rust-Hello-World) of a simple 'hello world' app.
+Don't want to install Rust on your machine just yet? You can use [repl.it](https://repl.it/)! 
+
+[Here is an example](https://repl.it/@nikkilr88/Rust-Hello-World) of a simple 'hello world' app.
 
 ### Why use Rust?
 
