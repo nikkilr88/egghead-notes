@@ -94,9 +94,11 @@ Functions are declared with the `fn` keyword. Arguments are type annotated, and 
 
 ```rust
 fn sum(a: u32, b: u32) -> u32 {
-  // Your code goes here
+  a + b
 }
 ```
+
+_*Note that the final expression in the function will be used as return value, and the `return` keyword is not needed._
 
 **Additional reading:**
 
