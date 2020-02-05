@@ -22,7 +22,7 @@ Rust uses cargo as its' package manager.
 
 ### Basics
 
-Every Rust program needs a `main` function
+Every Rust program needs a `main` function. This is the starting point of the application.
 
 ```rust
 fn main() {
