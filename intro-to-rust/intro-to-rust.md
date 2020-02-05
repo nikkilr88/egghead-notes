@@ -1,5 +1,9 @@
 # Rust
 
+[Installation guide](https://www.rust-lang.org/tools/install)
+
+Don't want to install Rust on your machine just yet? You can use this [online playground](https://repl.it/)!
+
 ### Why use Rust?
 
 - Fast
