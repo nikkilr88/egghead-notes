@@ -6,6 +6,10 @@ In this lesson, we learn how to structure folders and configure Yarn workspaces 
 
 ## Notes
 
+---
+
+### ⚡ Setting Up Directories
+
 In an empty directory, we create a `package.json`. We set `private` to `true` and `workspaces` to a list of folder names (packages) that we're going to create.
 
 Setting the `private` property prevents your package from being published on npm.
@@ -80,6 +84,8 @@ We also want to add `scripts` to our theme site, so we copy and paste it over.
 }
 ```
 
+### ⚡ Installing Workspace Dependencies
+
 Next we install our dependencies. Instead of using `yarn add`, we use `yarn workspace <workspace name> add`.
 
 We will add Gatsby, React, ReactDOM and our theme, `gatsby-theme-events`
@@ -106,6 +112,8 @@ During development we are going to use our theme as a regular Gatsby site, so we
 $ yarn workspace gatsby-theme-events add -D react react-dom gatsby
 ```
 
+### ⚡ Starting the Development Servers
+
 To make sure everything is working correctly, we can start up a dev server for our site.
 
 ```bash
@@ -123,6 +131,8 @@ $ yarn workspace gatsby-theme-events develop
 We should see another `404` page.
 
 ## Additional Resources
+
+---
 
 - [npm docs: private](https://docs.npmjs.com/files/package.json#private)
 
