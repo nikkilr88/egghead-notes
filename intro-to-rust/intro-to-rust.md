@@ -1,5 +1,11 @@
 # Rust
 
+[Installation guide](https://www.rust-lang.org/tools/install)
+
+Don't want to install Rust on your machine just yet? You can use [repl.it](https://repl.it/)! 
+
+[Here is an example](https://repl.it/@nikkilr88/Rust-Hello-World) of a simple 'hello world' app.
+
 ### Why use Rust?
 
 - Fast
@@ -16,7 +22,7 @@ Rust uses cargo as its' package manager.
 
 ### Basics
 
-Every Rust program needs a `main` function
+Every Rust program needs a `main` function. This is the starting point of the application.
 
 ```rust
 fn main() {
@@ -88,9 +94,11 @@ Functions are declared with the `fn` keyword. Arguments are type annotated, and 
 
 ```rust
 fn sum(a: u32, b: u32) -> u32 {
-  // Your code goes here
+  a + b
 }
 ```
+
+_*Note that the final expression in the function will be used as return value, and the `return` keyword is not needed._
 
 **Additional reading:**
 
