@@ -6,8 +6,6 @@ In this lesson, we learn how to structure folders and configure Yarn workspaces 
 
 ## Notes
 
----
-
 ### ⚡ Setting Up Directories
 
 In an empty directory, we create a `package.json`. We set `private` to `true` and `workspaces` to a list of folder names (packages) that we're going to create.
@@ -131,8 +129,6 @@ $ yarn workspace gatsby-theme-events develop
 We should see another `404` page.
 
 ## Additional Resources
-
----
 
 - [npm docs: private](https://docs.npmjs.com/files/package.json#private)
 

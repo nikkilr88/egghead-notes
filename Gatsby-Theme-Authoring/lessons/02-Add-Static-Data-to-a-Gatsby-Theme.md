@@ -2,13 +2,9 @@
 
 ## Summary
 
----
-
 In this lesson we learn how to load data from MDX (or any data source) and ensure the necessary folders exist.
 
 ## Notes
-
----
 
 ### ⚡ Getting the Data
 
