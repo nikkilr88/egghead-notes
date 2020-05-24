@@ -74,3 +74,9 @@ We'll select allEvent → nodes → name
 When we hit the play button, our data will appear on the screen.
 
 ![GraphQL playground](../images/graphql-query.png)
+
+## Additional Resources
+
+- [Gatsby config API](https://www.gatsbyjs.org/docs/gatsby-config/)
+
+- [The gatsby-config.js API File](https://www.gatsbyjs.org/docs/api-files-gatsby-config/)
