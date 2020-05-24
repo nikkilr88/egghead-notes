@@ -28,8 +28,6 @@ Inside of this file we need to do a few things:
 
 ### ⚡ Creating the gatsby-node file
 
-#### gatsby-theme-events/gatsby-node.js
-
 To make sure that our data exists we can use `onPreBootstrap` API hook from Gatsby.
 
 We're going to grab `reporter` to log what's going on.
@@ -37,6 +35,8 @@ We're going to grab `reporter` to log what's going on.
 Next we're going to create a varible for the content path and set it to the `data` directory we created earlier.
 
 After that we're going to import the `fs` module. There is no need to install any extra dependencies because it's built into Node. Then we'll use it to check if the content path _doesen't_ exist. If it doesn't well go ahead and create it.
+
+#### gatsby-theme-events/gatsby-node.js
 
 ```js
 const fs = require('fs')
