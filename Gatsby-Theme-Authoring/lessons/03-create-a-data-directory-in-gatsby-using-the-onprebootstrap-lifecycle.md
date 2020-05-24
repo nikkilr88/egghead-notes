@@ -1,4 +1,4 @@
-[Video Link](https://egghead.io/lessons/gatsby-add-static-data-to-a-gatsby-theme)
+[Video Link](https://egghead.io/lessons/gatsby-create-a-data-directory-in-gatsby-using-the-onprebootstrap-lifecycle)
 
 ## Summary
 
