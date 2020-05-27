@@ -63,7 +63,7 @@ $ yarn workspace gatsby-theme-events develop
 
 If everything works correctly, we should see the GraphQL playground.
 
-![GraphQL playground](../images/graphql-playground.png)
+![GraphQL playground](../images/02-graphql-playground.png)
 
 ### ⚡ Writing Our First Query
 
@@ -73,7 +73,7 @@ We'll select allEvent → nodes → name
 
 When we hit the play button, our data will appear on the screen.
 
-![GraphQL playground](../images/graphql-query.png)
+![GraphQL playground](../images/02-graphql-query.png)
 
 ## Additional Resources
 
