@@ -38,7 +38,7 @@ const EventDate = ({ startDate, endDate }) => {
   return (
     <>
       <time dateTime=''></time>
-    </time>
+    </>
   )
 }
 ```
