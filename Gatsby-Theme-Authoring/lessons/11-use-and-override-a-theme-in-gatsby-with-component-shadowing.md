@@ -109,3 +109,7 @@ const EventList = ({ events }) => {
   )
 }
 ```
+
+## Additional Resources
+
+- [Theme UI Docs](https://theme-ui.com/getting-started)
